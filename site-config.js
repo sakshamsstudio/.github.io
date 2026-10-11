@@ -9,8 +9,8 @@
 window.SITE = {
 
   /* 1. YOUR CONTACT DETAILS ------------------------------------------- */
-  // The email where client inquiries will arrive (your new Gmail).
-  email: "YOUR-NEW-GMAIL@gmail.com",
+  // Public contact email (forwards to your Gmail via Cloudflare Email Routing).
+  email: "hello@sakshamsstudio.com",
 
   // WhatsApp number with country code, digits only, e.g. "919876543210".
   // Leave as "" to hide the WhatsApp button.
@@ -23,39 +23,39 @@ window.SITE = {
 
   /* 2. SHOWREEL -------------------------------------------------------- */
   // Paste the YouTube link of your 1-minute showreel. Leave "" for placeholder.
-  showreel: "",
+  showreel: "https://youtu.be/gtCaV3csusA",
 
   /* 3. PORTFOLIO VIDEOS ------------------------------------------------ */
   // Paste each YouTube link (normal or Shorts link both work).
   // vertical: true  = 9:16 short documentary   |   false = 16:9 widescreen
   work: [
     {
-      title: "Why the Gita Was Spoken on a Battlefield",
-      tag: "Spirituality · Short Documentary",
-      note: "Script interpretation, AI visuals, atmospheric sound design.",
-      youtube: "",
-      vertical: true
+      title: "The Day Nokia Lost Everything",
+      tag: "Business · Short Documentary · Hindi",
+      note: "The rise, fall and reinvention of Nokia — a Hindi documentary with story-led pacing and archival-style visuals.",
+      youtube: "https://youtu.be/9Ru49g5wSm0",
+      vertical: false
     },
     {
-      title: "1983 to 2011: India's World Cup Journey",
-      tag: "Sport · Short Documentary",
-      note: "Archival-style storytelling, typography, emotional pacing.",
-      youtube: "",
-      vertical: true
-    },
-    {
-      title: "The Silk Route",
+      title: "The Cold War Explained in 120 Seconds",
       tag: "History · Explainer",
-      note: "Animated maps, research-led narrative, cinematic AI scenes.",
-      youtube: "",
-      vertical: true
+      note: "45 years of global tension made clear — maps, typography and tension-building sound.",
+      youtube: "https://youtu.be/3H0KuVe455A",
+      vertical: false
     },
     {
-      title: "The Story of Zero",
-      tag: "Ideas · Explainer",
-      note: "Complex idea made simple — motion graphics and clear structure.",
-      youtube: "",
-      vertical: true
+      title: "How Jasprit Bumrah Changed Fast Bowling Forever",
+      tag: "Sport · Short Documentary",
+      note: "A cricket story told with rhythm — build-up, stats as storytelling, and an emotional payoff.",
+      youtube: "https://youtu.be/f1g2kMxrwJs",
+      vertical: false
+    },
+    {
+      title: "Arjun's Dilemma at Kurukshetra",
+      tag: "Mythology · Cinematic Short",
+      note: "The moment the Gita began — epic AI visuals, dramatic pacing and an emotional turn.",
+      youtube: "https://youtu.be/07u-XAy2eQs",
+      vertical: false
     }
   ],
 
